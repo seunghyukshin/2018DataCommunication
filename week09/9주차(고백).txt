@@ -1,0 +1,17 @@
+go back n
+
+pipe line이 n개 : 보낼때 n개의 데이터를 보냄 
+ 
+모든ack을 받을필요 없다
+
+이번과제
+seq num 범위 0~7 0001~0111
+window size : 4
+0을 보내면 0
+
+
+012를 한번에보냄
+
+정상일때
+seq:0 ack:0             seq:0 ack:0
+seq:1 ack:1             seq:1 ack:1
